@@ -1,17 +1,14 @@
-#main-title {
-	/*background-color: blue;*/
-	color: white;
-
+.bg-color-gray-light {
+    background-color: #fdfdfd;
 }
 
-#next-part {
-	background-color: red;
-	color: white;
+.brand-logo {
+    margin-left:20px;
+    font-family: 'Amatic SC', cursive;
 }
 
-.offset-0 {
-    padding-left: 0;
-    padding-right: 0;
+.brand-height {
+    font-size: 70px;
 }
 
 .grayed-out {
@@ -29,3 +26,40 @@
         -ms-filter: grayscale(0%);
             filter: grayscale(0%);
 }
+
+#main-title {
+	/*background-color: blue;*/
+	color: white;
+
+}
+
+.nav-color-red {
+    background-color:#c02429;
+}
+
+#next-part {
+	background-color: red;
+	color: white;
+}
+
+nav, nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons, nav .button-collapse i, .nav-wrapper, .brand-logo {
+    height: 120px;
+    line-height: 120px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 120px;
+        line-height: 120px;
+    }
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
