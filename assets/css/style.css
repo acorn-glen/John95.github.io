@@ -11,6 +11,12 @@
     font-size: 70px;
 }
 
+#contact-info {
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
 .grayed-out {
     -webkit-filter: grayscale(50%);
        -moz-filter: grayscale(50%);
